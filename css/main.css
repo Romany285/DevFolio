@@ -1,0 +1,509 @@
+/* ----nvbar---- */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+.nav-link {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 15px !important;
+}
+.nav-logo {
+  font-size: 32px;
+  font-weight: 500;
+}
+.collapse ul li {
+  position: relative;
+}
+.collapse .line {
+  width: 0px;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50px ;
+  left: 15px;
+  transition: all 1s;
+  transition-timing-function: ease;
+}
+.collapse ul li:hover .line {
+  width: 60px ;
+}
+.collapse .liner {
+  width: 0px;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50px ;
+  left: 15px;
+  transition: all 1s;
+  transition-timing-function: ease;
+}
+.collapse ul li:hover .liner {
+  width: 110px ;
+}
+ 
+/* -----home---- */
+#home {
+  background-image: url(../image/hero-bg.jpg);
+
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#home .layer {
+  background-color: rgba(0, 0, 0, 0.486);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home .layer .caption {
+  text-align: center;
+}
+#home h1 {
+  font-size: 4rem;
+}
+ 
+h3 .text-typed::after {
+  content:'';
+  animation: type 8s infinite;
+  
+}
+ @keyframes type{
+0% {
+  content: 'D';
+}
+3% {
+  content: 'De';
+}
+6% {
+  content: 'Dev';
+}
+9% {
+  content: 'Deve';
+}
+12% {
+  content: 'Devel';
+}
+14% {
+  content: 'Develo';
+}
+17% {
+  content: 'Develop';
+}
+20% {
+  content: 'Develope';
+}
+23% {
+  content: 'Developer';
+}
+26% {
+  content: 'Develope';
+}
+29% {
+  content: 'Develop';
+}
+32% {
+  content: 'Develo';
+}
+35% {
+  content: 'Devel';
+}
+38% {
+  content: 'Deve';
+}
+41% {
+  content: 'Dev';
+}
+44% {
+  content: 'De';
+}
+47% {
+  content: 'D';
+}
+50% {
+  content: 'D';
+}
+53% {
+  content: 'D';
+}
+56% {
+  content: 'D';
+}
+59% {
+  content: 'De';
+}
+62% {
+  content: 'Des';
+}
+65% {
+  content: 'Desi';
+}
+68% {
+  content: 'Desin';
+}
+71% {
+  content: 'Desine';
+}
+74% {
+  content: 'Desiner';
+}
+75% {
+  content: 'Desine';
+}
+78% {
+  content: 'Desin';
+}
+82% {
+  content: 'Desi';
+}
+86% {
+  content: 'Des';
+}
+90% {
+  content: 'De';
+}
+95% {
+  content: 'D';
+}
+100% {
+  content: 'D';
+}
+ 
+}
+/* ----about---- */
+#about {
+  min-height: 100vh;
+}
+#about .container {
+  margin-top: 80px;
+}
+#about .container .aboutme h2 {
+  padding-bottom: 40px;
+  position: relative;
+}
+#about .container .aboutme h2::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: #0078ff;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+#about .container h5 {
+  padding-block: 20px;
+}
+#about .container .skill p {
+  padding-top: 10px;
+}
+#about .container .info .title {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+#about .container .image {
+  width: 200px;
+  margin-right: 30px;
+}
+#about .container .image img {
+  width: 100%;
+}
+/* ----services----  */
+#services {
+  text-align: center;
+  margin-top: 80px;
+  background-color: #f1f1f1;
+  padding-bottom: 30px;
+}
+#services .container {
+  margin-top: 70px;
+  box-sizing: border-box;
+}
+#services h2 {
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+}
+ 
+#services .line {
+  background-color: #0078ff;
+  width: 70px;
+  height: 4px;
+}
+#services .layer {
+  margin: 20px 0px;
+}
+#services .child {
+  text-align: center;
+
+  background-color: #ffffff;
+  padding-block: 40px;
+  border-radius: 20px;
+}
+#services .child i {
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+}
+#services .child .icon {
+  width: 120px;
+  margin: 10px auto;
+  height: 120px;
+  transition: all 0.5s;
+  padding-top: 30px;
+  border: #0078ff solid 10px;
+  border-radius: 50% 50%;
+}
+#services .child:hover .icon {
+  border: #cde1f8 solid 10px;
+  background-color: #0078ff;
+}
+/* attashment */
+.attashment {
+  background: linear-gradient(to right, #0077ffa2, #0077ffa6),
+    url(../image/counters-bg.jpg);
+
+  background-attachment: fixed;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+.attashment .row {
+  width: 100%;
+}
+.attashment .child {
+  text-align: center;
+}
+.attashment .child .icon {
+  width: 100px;
+  margin: 10px auto;
+  height: 100px;
+  font-size: 32px;
+  padding-top: 20px;
+  border: #ffffffab solid 10px;
+  border-radius: 50% 50%;
+}
+/* ----work---- */
+#work {
+  text-align: center;
+  margin-top: 70px;
+}
+#work h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#work .line {
+  background-color: #0078ff;
+  width: 50px;
+  height: 4px;
+  margin: auto;
+}
+#work .container {
+  margin-top: 60px;
+}
+#work .layer .image img {
+  width: 100%;
+  transition: all 0.7s;
+}
+#work .layer {
+  margin-block: 25px;
+}
+#work .layer .child {
+  text-align: start;
+}
+#work .layer .child:hover img {
+  transform: scale(120%);
+}
+#work .layer .child .image {
+  overflow: hidden;
+}
+#work .layer .child span {
+  color: #0078ff;
+}
+#work .layer .child .parent {
+  padding: 15px;
+}
+#work .layer .child .parent .icon {
+  font-size: 40px;
+}
+#slider {
+  background: linear-gradient(to right, #0077ffab, #0077ffb2),
+    url(../image/overlay-bg.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#slider img {
+  margin: auto;
+  border-radius: 50% 50%;
+}
+.gerl {
+  width: 30%;
+}
+#slider p {
+  font-size: 18px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 0;
+}
+/* -----blog----- */
+#blog {
+  text-align: center;
+  padding-block: 80px;
+}
+#blog h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#blog .line {
+  background-color: #0078ff;
+  width: 50px;
+  height: 4px;
+  margin: auto;
+}
+#blog .container .parent {
+  margin-top: 60px;
+}
+
+#blog .container .layer .child {
+  border: 1px solid rgba(109, 101, 101, 0.329);
+  border-radius: 5px;
+}
+#blog .container .layer img {
+  width: 100%;
+}
+#blog .container .layer .child h4 {
+  padding-top: 20px;
+  position: relative;
+}
+#blog .container .layer .child p {
+  padding-bottom: 10px;
+  padding: 15px;
+}
+#blog .container .layer .child h4::after {
+  content: " WEB DESIGN";
+  width: 120px;
+  height: 30px;
+  position: absolute;
+  bottom: 35px;
+  left: 150px;
+  background-color: #0078ff;
+  font-size: 13px;
+  padding-top: 5px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+#blog .container .layer .child .ko::after {
+  content: "TRAVEL";
+  width: 120px;
+  height: 30px;
+  position: absolute;
+  bottom: 35px;
+  left: 150px;
+  background-color: #0078ff;
+  font-size: 13px;
+  padding-top: 5px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.name .img img {
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.nam a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+.name .hour {
+  padding: 10px;
+}
+.nam a:hover {
+  color: #0078ff;
+}
+/* -----contant---- */
+#contant {
+  padding-block: 80px;
+  background: linear-gradient(to right, #0077ffad, #0077ffb0),
+    url(../image/overlay-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#contant .container .line {
+  background-color: #0078ff;
+  width: 100px;
+  height: 3px;
+  margin-bottom: 30px;
+}
+#contant .container i {
+  margin-right: 10px;
+}
+#contant .container .info {
+  margin-block: 10px;
+}
+#contant .container .social i {
+  border: 3px solid #0078ff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  transition: all 0.6s;
+  color: black;
+}
+#contant .container .social i:hover {
+  background-color: #0078ff;
+  border: 3px solid #b7cfeb;
+  color: #ffffff;
+}
+#contant .container input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 14px;
+  border: #c2bcbc solid 1px;
+}
+#contant .container textarea {
+  width: 100%;
+  height: 120px;
+  border: #c2bcbc solid 1px;
+  padding: 15px;
+}
+#contant .container form {
+  text-align: center;
+}
+#contant .container button {
+  background-color: #0078ff;
+  margin-top: 30px;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 30px;
+  border: #0078ff;
+  color: #ffffff;
+  font-size: 18px;
+  transition: all 1s;
+  border: #ffffff solid 2px;
+}
+#contant .container button:hover {
+  background-color: #66a0e2;
+  border: 2px solid #b7cfeb;
+}
+/* ----footer---- */
+#footer {
+  background-color: #0062d3;
+  text-align: center;
+  color: #ffffff;
+  padding-block: 20px;
+}
